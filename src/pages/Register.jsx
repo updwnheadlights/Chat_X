@@ -7,7 +7,7 @@ const Register = () => {
         <span className="logo">ChatX</span>
         <span className="title">Register</span>
         <form>
-         <input type="text" placeholder="Display Name"/>
+         <input type="text" placeholder="User Name"/>
          <input type="email" placeholder="Email" />
          <input type="password" placeholder="Password" />
          <input style = {{display:"none"}} type="file" id='file' />
