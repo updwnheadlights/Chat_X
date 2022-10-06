@@ -14,12 +14,12 @@
         gap: 10px;
         align-items: center;
         .logo{
-            color: #5d5b8d;
+            color: #7745FF;
             font-weight: bold;
             font-size: 24px;
         }
         .title{
-            color: #5d5b8d;
+            color: #7745FF;
             font-weight: 12px;
         }
         form{
@@ -31,14 +31,15 @@
                 padding: 15px;
                 border: none;
                 width: 250px;
-                border-bottom:1px solid #a7bcff ;
+                border-bottom:1px solid #7745FF ;
             
             &::placeholder{
+                font-size: 15px;
                 color: grey
             }
             }
             button{
-                background-color: #a7bcff;
+                background-color: #7745FF;
                 color: white;
                 padding: 10px;
                 font-size: 14px;
@@ -46,6 +47,19 @@
                 border: none;
                 cursor: pointer;
             }
+        label{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 15px;
+            color: #7745FF;
+            cursor: pointer;
+            img{
+                width: 38px;
+                padding-left: 38px;
+            }
+        }
+        
         }
         p{
             color: #5d5b8d;

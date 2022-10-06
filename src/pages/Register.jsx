@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Add from "../img/pfp-select.png"
 const Register = () => {
   return (
     <div className='Form-Container'>
@@ -10,7 +10,10 @@ const Register = () => {
          <input type="text" placeholder="Display Name"/>
          <input type="email" placeholder="Email" />
          <input type="password" placeholder="Password" />
-         <input type="file" />
+         <input style = {{display:"none"}} type="file" id='file' />
+         <label htmlFor="file"><img src={Add} alt='pfp'/>
+         <span>Add profile picture</span>
+         </label>
          <button>Sign Up</button>
         </form>
         <p>Do you have an account? Login</p>
