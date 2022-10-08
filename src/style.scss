@@ -68,3 +68,38 @@
         }
     }
 }
+.Home{
+    background-color: #a7bcff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container{
+        border:1px solid white;
+        background-repeat: 10px;
+        border-radius: 15px;
+        width: 65%;
+        height: 85%;
+        display: flex;
+        overflow: hidden;
+    }
+    .Sidebar{
+    flex: 1;
+    border-right: 1px solid #7745FF;
+    background-color: #7745FF;
+    
+    .Navbar{
+        display: flex;
+        align-items: center;
+        background-color: #2f2d52;
+        height: 50px;
+        padding: 10px;
+        justify-content: space-between;
+        color: white;
+    }
+    }
+    .Chat{
+    flex: 2;
+    }
+}
