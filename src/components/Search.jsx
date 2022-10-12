@@ -7,9 +7,9 @@ const Search = () => {
         <input type='text' placeholder='Search'/>
       </div>
       <div className="UserChat">
-      <img src='https://thispersondoesnotexist.com/image'/>
+      <img src='https://st.depositphotos.com/1000686/3738/i/600/depositphotos_37383675-stock-photo-portrait-of-a-young-beautiful.jpg'/>
       <div className="UserCharInfo">
-        <span>Jill</span>
+        <span>Jane</span>
       </div>
 
       </div>

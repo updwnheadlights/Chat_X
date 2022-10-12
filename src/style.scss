@@ -124,9 +124,8 @@
      }
     }
   }
-  .Search{
+  .SearchForm{
     border-bottom: 1px solid white;
-    .SearchForm{
       padding: 10px;
 
       input{
@@ -157,10 +156,13 @@
         object-fit: cover;
       }
     }
-  }
+  
   
 }
   .Chat {
     flex: 2;
+    background-color: #3E3C61;
+    font-size: 25px;
+    color: white;
   }
 }
