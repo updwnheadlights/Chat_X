@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Add from "../img/logout.png"
 const Navbar = () => {
   return (
     <div className='Navbar'>
