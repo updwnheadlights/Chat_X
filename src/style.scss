@@ -144,8 +144,10 @@
       gap: 10px;
       color: white;
       cursor: pointer;
+      
       &:hover {
         background-color: #2f2d52;
+       
       }
       img {
         width: 50px;
@@ -155,8 +157,7 @@
       }
       .UserChatInfo {
         span {
-          font-size: 18px;
-          font-weight: 410;
+          font-size: 16px; font-weight: bold
         }
         p {
           font-size: 14px;
@@ -171,5 +172,6 @@
     background-color: #3e3c61;
     font-size: 25px;
     color: white;
+    font-weight: bold;
   }
 }
