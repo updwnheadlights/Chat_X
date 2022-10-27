@@ -2,8 +2,8 @@ import React from 'react'
 
 const Input = () => {
   return (
-    <div>
-      
+    <div className='Input'>
+      Input
     </div>
   )
 }
