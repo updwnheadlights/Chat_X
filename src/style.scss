@@ -129,9 +129,10 @@
         button {
           background-color: #5d5b8d;
           color: #ddddf7;
-          font-size: 10px;
+          font-size: 12px;
           border: none;
           cursor: pointer;
+          border-radius: 10px;
         }
       }
     }
@@ -221,6 +222,41 @@
       height: 50px;
       background-color: white;
       padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      input {
+        width: 100%;
+        border: none;
+        outline: none;
+        color: #2F2D52;
+        font-size: 18px;
+
+        &::placeholder {
+          color: gray;
+        }
+      }
+
+      .send {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+          height: 27px;
+          cursor: pointer;
+        }
+
+        button {
+          border: none;
+          padding: 10px 15px;
+          color: white;
+          background-color: #7745ff;
+          cursor: pointer;
+          border-radius: 20px;
+        }
+      }
     }
   }
 }
